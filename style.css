@@ -1,0 +1,196 @@
+body {
+    margin: 10px;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-work-sans: "Work Sans";
+    --font-roboto: Roboto;
+  
+    /* font sizes */
+    --font-size-8xl: 27px;
+    --font-size-3xl: 22px;
+    --font-size-5xl-9: 24.9px;
+    --font-size-lg: 18px;
+  
+    /* Colors */
+    --color-gold-100: #ffc801;
+    --color-white: #fff;
+    --color-whitesmoke: #f5f5f5;
+    --color-gray-100: #7d7878;
+    --color-gray-200: rgba(0, 0, 0, 0.5);
+/*     --color-deeppink-100: #ee3572; */
+  
+    /* Border radiuses */
+    --br-3xs: 10px;
+    --br-31xl: 50px;
+  }
+  
+  .dramatic-sky-mountain-silhouet-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   
+    object-fit: contain;
+  
+  }
+  .search{
+    display: flex;
+    margin-top: -1400px;
+  }
+  .input-group{
+    width: 250px;
+  }
+  .weather-child {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 74.8px;
+    left: 96.8px;
+    border-radius: 9.98px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 19.95px #7d7878;
+    border: 1px solid black;
+    box-sizing:border-box
+ 
+  }
+  .new-york {
+    position: absolute;
+    top: 126.7px;
+    left: 163.6px;
+    font-size: 34.92px;
+    font-weight: 600;
+    color: #ff006b;
+  }
+  .overcast {
+    position: absolute;
+    top: 244.4px;
+    left: 270.4px;
+    font-size: 24.94px;
+    font-weight: 500;
+    color: var(--color-white);
+  }
+  .overcast1 {
+    position: absolute;
+    top: 244.4px;
+    left: 270.4px;
+    font-size: 24.94px;
+    font-weight: 500;
+  }
+  .weather-details {
+    position: absolute;
+    top: 394.1px;
+    /* left: 96.8px; */
+    font-size: 24.94px;
+    font-weight: 600;
+    color: #142d4c;
+  }
+  .b {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 50px;
+  }
+  .frame-inner {
+    position: absolute;
+    top: 18px;
+    left: 81.8px;
+    border-radius: 50%;
+    border: 5px solid var(--color-gold-100);
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+  }
+  .parent {
+    position: absolute;
+    top: 193.5px;
+    left: 164.6px;
+    width: 101.8px;
+    height: 94px;
+    font-size: 79.81px;
+    color: var(--color-gold-100);
+  }
+  .weather-item {
+    position: absolute;
+    top: 447px;
+   /*  left: 96px; */
+    border-radius: var(--br-3xs);
+    background-color: rgba(125, 120, 120, 0.1);
+    box-shadow: 0px 0px 10px rgba(125, 120, 120, 0.5);
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    width: 1064px;
+    height: 330px;
+    mix-blend-mode: normal;
+  }
+
+  .p {
+    margin: 0;
+  }
+  .div {
+    position: absolute;
+    top: 5.6px;
+    left: 0px;
+    font-weight: 500;
+    display: inline-block;
+    width: 118.7px;
+    height: 110.4px;
+  }
+  .text {
+    position: absolute;
+    top: 0px;
+    left: 270.3px;
+    font-size: 16.68px;
+    font-weight: 500;
+    display: inline-block;
+    height: 63.6px;
+  }
+
+  .span {
+    font-size: 19.95px;
+  }
+
+  #bgimg{
+  /*   position: absolute; */
+    top: 89px; 
+     left: 80px; 
+    border-radius: 19.95px;
+    background-color: var(--color-white);
+    box-shadow: 0px 0px 19.95px rgba(0, 0, 0, 0.8);
+    width: 1281px;
+    height: 1400px;
+    overflow: hidden;
+    mix-blend-mode: normal;
+    background-image: url(./images/Firefly\ weather\ app\ home\ page\ background\ image\ 64978.jpg);
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .parent #desc{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+
+  .frame {
+    position: relative;
+   /*  background-color: #e2c112; */
+
+    /* width: 100%; */
+   /*  height: 1024px; */
+    overflow: hidden;
+    text-align: left;
+    font-size: 17.96px;
+    color: var(--color-whitesmoke);
+    font-family: var(--font-work-sans);
+  }
+  .box {
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    
+  }
